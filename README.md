@@ -23,4 +23,4 @@ The music_note.m function can apply such an ADSR envelope to the sinuosoidal sig
 
 
 ### Overlapping musical notes
-Another way to improvement sound quality is by slightly overlapping each musical note in time
+Another way to improve sound quality is by slightly overlapping each musical note in time. The functions overlapper.m and array_overlapper.m implement this overlapping.

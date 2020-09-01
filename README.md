@@ -11,8 +11,16 @@ In the case of this project, I only dealt with the octave of 220 Hz to 440 Hz, a
 
 
 # Music synthesis
-
+The MATLAB function music_note.m creates a sinusoidal signal with a frequency and count (duration) based on the user's input. However, there are several improvements that can be made to make the musical note sound better.
 
 ## Improvements to sound quality
 ### ADSR (attack, decay, sustain, release) envelope
+Normally, when a note is played in reality, there are variations in volume in the note. These variations are split into 4 sections: attack, decay, sustain, release, as shown in the figure below.
+
+![ADSR envelope](https://github.com/leeway64/Elementary-Music-Synthesis/blob/master/ADSR%20envelope.jpg)
+
+The music_note.m function can apply such an ADSR envelope to the sinuosoidal signal.
+
+
 ### Overlapping musical notes
+Another way to improvement sound quality is by slightly overlapping each musical note in time
